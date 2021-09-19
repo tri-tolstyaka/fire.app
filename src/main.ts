@@ -15,6 +15,3 @@ export default async ({ apps, navigations, config }) => {
 
 	mount(component);
 };
-
-const staticServer = "static/dummy/0.0.0/index.js";
-System.import(staticServer); // eats Dummy (dist)
