@@ -1,6 +1,0 @@
-#!/usr/bin/env node
-const childProcess = require('child_process')
-
-childProcess.execSync(
-    'npx webpack'
-)
